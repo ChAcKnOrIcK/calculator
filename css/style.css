@@ -122,3 +122,8 @@ button {
   justify-content: center;
   align-items: center;
 }
+
+.grid-list__acButton {
+  font-size: 20px;
+  font-weight: 500;
+}
