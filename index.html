@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calculator</title>
+
+    <link rel="stylesheet" href="./css/normalize.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <header class="header">
+        <!-- кнопка полный экран/окно -->
+        <button class="arrows-button">
+          <img class="" src="./img/arrows-low.svg" />
+        </button>
+        <button class="header__elem active-text">Калькулятор</button>
+        <button class="header__elem">Конвертер</button>
+        <!-- всплытие кнопки "История" -->
+        <button class="dots-button">
+          <img class="" src="./img/dots.svg" alt="" />
+        </button>
+      </header>
+
+      <main class="main">
+        <section class="history-block"></section>
+
+        <div class="result">0</div>
+
+        <section class="grid-list">
+          <button class="grid-list__elem orange">AC</button>
+          <button class="grid-list__elem orange">X</button>
+          <button class="grid-list__elem orange">X</button>
+          <button class="grid-list__elem orange">X</button>
+          <button class="grid-list__elem">7</button>
+          <button class="grid-list__elem">8</button>
+          <button class="grid-list__elem">9</button>
+          <button class="grid-list__elem orange">X</button>
+          <button class="grid-list__elem">4</button>
+          <button class="grid-list__elem">5</button>
+          <button class="grid-list__elem">6</button>
+          <button class="grid-list__elem orange">-</button>
+          <button class="grid-list__elem">1</button>
+          <button class="grid-list__elem">2</button>
+          <button class="grid-list__elem">3</button>
+          <button class="grid-list__elem orange">+</button>
+          <button class="grid-list__elem orange">X</button>
+          <button class="grid-list__elem">0</button>
+          <button class="grid-list__elem">,</button>
+          <button class="grid-list__elem back">=</button>
+        </section>
+      </main>
+    </div>
+  </body>
+</html>
