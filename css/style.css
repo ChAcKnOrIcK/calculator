@@ -55,8 +55,12 @@ button {
   max-height: 873px;
   /* padding для desktop приложения на телефон стоит поставить 53px 28px 75px */
   /* это padding для веб приложения на телефон */
-  padding: 26px 28px 0;
+  padding: 26px 28px 5px;
   overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .header {
@@ -121,6 +125,18 @@ button {
   display: flex;
   justify-content: center;
   align-items: center;
+  transition: 0.1s;
+}
+
+.grid-list__elem:active {
+  background-color: rgb(61, 61, 61);
+  transform: scale(0.8);
+
+  /* эти свойства конфликтуют с transform */
+  /* justify-self: center;
+  align-self: center; */
+  /* width: 69px; */
+  /* height: 60px; */
 }
 
 .grid-list__acButton {
